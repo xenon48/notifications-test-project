@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "producer-service": {
+      "type": "application",
+      "root": "apps/producer-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/producer-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/producer-service/tsconfig.app.json"
+      }
+    },
+
+    "consumer-service": {
+      "type": "application",
+      "root": "apps/consumer-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/consumer-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/consumer-service/tsconfig.app.json"
+      }
+    }
+  }
+}
